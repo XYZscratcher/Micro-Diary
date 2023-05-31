@@ -1,0 +1,80 @@
+/*@import '../node_modules/lxgw-wenkai-lite-webfont/lxgwwenkailite-light.css';*/
+html {
+    background-color: #fff;
+    text-align: center;
+    color: #111;
+}
+
+body {
+    margin: 0;
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+}
+
+/*@font-face {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""),
+    url("assets/fonts/nunito-v16-latin-regular.woff2") format("woff2");
+}*/
+
+#App {
+    text-align: center;
+}
+
+#riji_box {
+    display: flex;
+    margin-inline: 8rem;
+    margin-top: 3%;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#riji {
+    border: none;
+    outline: solid lightgray .16rem;
+    border-radius: 0.6rem;
+    resize: none;
+    flex-basis: 60%;
+    height: 60vh;
+    font-family: 'LXGW Wenkai Lite';
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 2rem;
+    min-width:25rem;
+}
+
+/*@media (width<=782px){
+    #riji_box{
+        margin-inline:unset;
+    }
+}*/
+/*@media (width<578px) {
+    #riji{
+        margin-top: 2rem;
+    }
+    #riji_box{
+        margin-inline: 1rem;
+    }
+}
+
+@media (height>800px) and (width>768px) {
+    #riji_box {
+        margin-inline: 10vw!important;
+    }
+}
+@media (578<=width<=769px){
+    #riji {
+            margin-left: 2rem;
+        }
+}*/
+
+
+
+
+
+/*#riji:focus{
+    outline: solid gray .2rem;
+}*/
