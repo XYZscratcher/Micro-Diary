@@ -4,6 +4,8 @@ import 'lxgw-wenkai-lite-webfont/style.css';
 import './App.css';
 
 import { Calendar, theme, ConfigProvider, Layout } from 'antd'
+import { CheckCircleOutlined, CheckCircleFilled,CheckOutlined,CheckSquareFilled } from '@ant-design/icons'
+
 import dayjs from 'dayjs';
 import 'dayjs/locale/zh-cn';
 import locale from 'antd/locale/zh_CN';
@@ -42,15 +44,16 @@ function App() {
         //border: `1px solid ${token.colorBorderSecondary}`,
         borderRadius: token.borderRadiusLG,
         margin: CSS.rem(2),
-        flexBasis: new CSSUnitValue(40, "%"),
+        flexBasis: CSS.precent(40),
     };
 
     const dateFullCellRender = (date, originNode) => {
         if (date.format("YYYY-MM-DD") in obj) {
-            return <div style={{
+            /*return <div style={{
                 color: token.blue6,
                 fontWeight: "bold"
-            }}>{date.format("DD")}</div>
+            }}>{date.format("DD")}</div>*/
+            return <CheckOutlined style={{ color: token['green-6'], fontSize: CSS.rem(1.4), verticalAlign: "bottom" }} className="ant-picker-cell-inner" />
         }
         return originNode
     }

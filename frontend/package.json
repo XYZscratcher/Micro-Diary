@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.1.4",
     "antd": "^5.5.1",
     "localforage": "^1.10.0",
     "lxgw-wenkai-lite-webfont": "^1.7.0",
