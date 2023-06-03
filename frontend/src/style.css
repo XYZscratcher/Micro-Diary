@@ -26,7 +26,7 @@ body {
 
 #riji_box {
     display: flex;
-    margin-inline: 8rem;
+    margin-inline: 4rem;
     margin-top: 3%;
     flex-wrap: nowrap;
     justify-content: center;
